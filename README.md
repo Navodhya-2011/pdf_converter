@@ -18,3 +18,18 @@ This Python application allows you to convert multiple `.pptx` (PowerPoint) and 
 2. **pip**: Ensure `pip` is installed and updated:
    ```bash
    python -m ensurepip --upgrade
+   
+
+##Installation Guide
+
+Follow these instructions to set up the application on your system.
+
+###Windows
+
+1. Install LibreOffice:
+Download and install LibreOffice from the official website.
+2. Install unoconv:
+	•	Download unoconv from unoconv GitHub repository.
+	•	Place the unoconv executable in a directory that’s included in your system’s PATH.
+3. Install Python dependencies:
+Open Command Prompt and run:
