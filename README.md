@@ -1,6 +1,6 @@
 # File Converter
 
-This Python application allows you to convert multiple `.pptx` (PowerPoint) and `.docx` (Word) files to PDF format. The application supports Windows, macOS, and Linux.
+This Python application allows you to convert multiple `.pptx` (PowerPoint) and `.docx` (Word) files to PDF format though GUI. The application supports Windows, macOS, and Linux.
 
 ## Features
 
@@ -30,8 +30,8 @@ Follow these instructions to set up the application on your system.
    Download and install LibreOffice from the [official website](https://www.libreoffice.org/download/download-libreoffice/).
    
 3. **Install unoconv**:
-	•	Download unoconv from [unoconv GitHub repository](https://github.com/unoconv/unoconv).
-	•	Place the unoconv executable in a directory that’s included in your system’s PATH.
+   - Download unoconv from [unoconv GitHub repository](https://github.com/unoconv/unoconv).
+   - Place the unoconv executable in a directory that’s included in your system’s PATH.
 4. **Install Python dependencies**:
    
    Open Command Prompt and run:
@@ -113,9 +113,9 @@ Follow these instructions to set up the application on your system.
 
 3. **Select Files and Convert**:
 
-   •	Use the GUI to select .pptx or .docx files.
-   •	Choose the directory where you want to save the converted PDFs.
-   •	Click “Convert to PDF” to start the conversion process.
+   - Use the GUI to select .pptx or .docx files.
+   - Choose the directory where you want to save the converted PDFs.
+   - Click “Convert to PDF” to start the conversion process.
 
 ## Acknowledgments
 
