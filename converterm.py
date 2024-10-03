@@ -13,14 +13,14 @@ def select_files():
     for filename in filenames:
         file_listbox.insert(tk.END, filename)
 
-# Function to convert the selected files to PDF
+# Function to convert the selected files to PDFs
 def convert_to_pdf():
     filepaths = file_listbox.get(0, tk.END)
     if not filepaths:
         messagebox.showerror("Error", "Please select at least one file to convert.")
         return
 
-    # Ask for directory to save converted PDFs
+    # Ask for directory to save converted PDF
     save_directory = filedialog.askdirectory(title="Select directory to save PDFs")
     if not save_directory:
         return
