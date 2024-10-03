@@ -46,7 +46,7 @@ def convert_file_to_pdf(input_path, output_path):
         raise Exception(f"Conversion failed: {e}")
 
 
-# Setup GUI
+# Setup 
 root = tk.Tk()
 root.title("File Converter")
 
