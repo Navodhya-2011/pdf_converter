@@ -42,7 +42,7 @@ def convert_file_to_pdf(input_path, output_path):
     except subprocess.CalledProcessError as e:
         raise Exception(f"Conversion failed: {e}")
 
-# Setup GUI
+# Setup GUI .
 root = tk.Tk()
 root.title("File Converter")
 
